@@ -1,0 +1,360 @@
+#content{
+	width:620px;
+	height:448px;
+}
+
+#headImage{
+	width:620px;
+	height:100px;	
+}
+
+#main{
+	width:616px;
+	height:348px;
+	border-left:solid 2px #c2c0c0;
+	border-right:solid 2px #c2c0c0;	
+}
+
+#border{
+	width:586px;
+	height:348px;
+	margin:0px 13px;
+	border-left:solid 2px #c2c0c0;
+	border-right:solid 2px #c2c0c0;	
+}
+
+.head{
+	height: 24px;
+	color:#333;
+	font:18px/1.4em 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+	padding-left: 16px;
+	/*outline:solid 1px #ddd;*/
+}
+
+#chooseAdventure{
+	width:586px;
+	height:80px;
+	background-image:url('http://www.wnyc.org/i/raw/1/bookshelfBGpreClickRadio.jpg')	
+}
+
+#top_shelf{
+	border-top:solid 1px #6a6a6a;
+}
+
+#ficNonfic{
+	width:540px;
+	height:20px;
+	padding:4px 0px 0px 46px;
+}
+
+#adjectives{
+	width:576px;
+	height:52px;
+	padding:4px 4px 0px 6px;	
+}
+
+#bookRecs{
+	position:relative;
+	display:inline;
+	float:left;
+	width:603px;
+	height:226px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+.bookRec{
+	width:586px;
+	height:104px;
+}
+
+.ghostBooks{
+	position:relative;
+	display:inline;
+	float:left;
+	width:40px;
+	height:100px;	
+}
+
+.imageHolder{
+	position:relative;
+	display:inline;
+	float:left;
+	width:67px;
+	height:100px;
+	margin:2px 2px 0px;
+	overflow:hidden;
+	outline:solid 1px #e3e3e3;
+}
+
+.recText{
+	position:relative;
+	display:inline;
+	float:left;
+	width:475px;
+	height:100px;
+	margin-top:2px;
+}
+
+.rtLinkHolderNoSub{
+	position:relative;
+	display:inline;
+	float:left;
+	width:451px;
+	height:26px;
+	padding: 4px 0px 1px 26px;
+	text-align:center;
+	/*outline:solid 1px orange;*/
+}
+
+.rtLinkHolderHasSub{
+	position:relative;
+	display:inline;
+	float:left;
+	width:451px;
+	height:25px;
+	padding: 2px 0px 2px 26px;
+	text-align:center;
+	/*outline:solid 1px orange;*/
+}
+
+.showNoSub {
+	font: 8pt 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;	
+	padding-left:18px;
+}
+
+.epiTitleNoSub {
+	font: 7pt 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+.showHasSub {
+	font: 8pt 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;	
+	padding-left:18px;
+}
+
+.epiTitleHasSub {
+	font: 7pt 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+.rtTitleNoSub{
+	position:relative;
+	display:inline;
+	float:left;
+	width:448px;
+	height:38px;
+	padding: 4px 0px 0px 28px;
+	font:26px/1.4em 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+	/*outline:solid 1px gray;*/	
+}
+
+.rtTitleHasSub{
+	position:relative;
+	display:inline;
+	float:left;
+	width:448px;
+	height:24px;
+	padding: 0px 0px 0px 28px;
+	font:26px/1em 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+.rtSubtitle{
+	position:relative;
+	display:inline;
+	float:left;
+	width:432px;
+	height:17px;
+	padding: 3px 0px 0px 44px;
+	font:14px/1em 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+.by{
+	position:relative;
+	display:inline;
+	float:left;
+	width:25px;
+	height:28px;
+	padding:4px 0px 0px 0px;
+	margin-left:96px;
+	font:18px/1.4em 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+	text-align:left;
+}
+
+.rtAuthor{
+	position:relative;
+	display:inline;
+	float:left;
+	width:476px;
+	height:28px;
+	padding:0px 0px 0px 0px;
+	font:22px/1.4em 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+/*GENERAL STYLE CLASSES*/
+.body{
+	position:relative;
+	display:inline;
+	float:left;
+	color:#555;
+	font: 14px/1.4em 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;	
+}
+
+.shelf{
+	width:586px;
+	height:7px;
+	border-top:solid 1px #C2C0C0;
+	border-bottom:solid 1px #C2C0C0;	
+}
+
+.shelfSpace{
+	width:586px;
+	height:104px;	
+}
+
+.text{
+	position:relative;
+	display:inline;
+	float:left;
+}
+a{
+	color: #0073d5;
+	text-decoration: none;
+	word-wrap: break-word;
+	text-align:left;
+	padding:0px 0px 0px 0px;
+	font: 9.5pt 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+			
+}
+
+a:hover{
+	text-align:left;
+	padding:0px 0px 0px 0px;
+	text-decoration: underline;
+}
+
+.btnHolder{
+	width:586px;
+	position:relative;
+	display:inline;
+	float:left;
+}
+
+#main ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;	
+}
+
+.tileMe li {
+	position:relative;
+	display:inline;
+	float:left;
+	margin-right:3px;
+}
+
+/*CONDITIONAL CLASSES*/
+
+.active{
+	color:#A4CCE0;
+	background:#2c3d66;
+	transition:all 500ms linear;
+}
+
+.inactive{
+	color:#555555;
+	background:#a4cce0;
+	transition:all 500ms linear;
+}
+
+.inactive:hover{
+	background:#5589a3;
+	cursor:pointer;
+}
+
+.reveal{
+	display:none;
+}
+
+.imageSize{
+	position:relative;
+	display:inline;
+	float:left;
+	width:67px;
+	height:100px;
+	margin:2px 2px 0px;
+}
+
+.noBooks{
+	padding:16px 0px 0px 0px;
+}
+
+.noBooksSub{
+	padding:2px 0px	0px 26px;
+}
+
+/*BUTTONS*/
+
+.btn{
+	text-align:center;
+	width:70px;
+	height:18px;
+	border-radius:9%;
+	border:solid 1px #083B24;
+	transition:all 500ms linear;	
+}
+
+/*.btn:hover{
+	text-align:center;
+	width:70px;
+	height:18px;
+	border-radius:9%;
+	border:solid 1px #083B24;
+	background:#5589a3;
+	cursor:pointer;	
+}
+*/
+.adj{
+	margin-bottom:3px;
+}
+
+.fic{
+	
+}
+
+#btn_fiction{
+	margin-right:4px;
+}
+
+#funny,#real{
+	width:50px;	
+}
+
+#funny{
+	margin-top:0px;
+}
+
+#setinthenycmetroarea{
+	height:50px;
+	font: 12px/1.4em 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+	border-radius:6%;
+}
+
+#edge-of-my-seat,#heart-wrenching{
+	height:38px;
+	font: 12px/1.4em 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+	padding-top:3px;
+	border-radius:6%;
+	margin-top:9px;
+}
+
+#dreamyHist,#pensieveReal{
+	margin-top:9px;	
+}
+
+
+#gotaheroine{
+	width:46px;
+	height:38px;
+	font: 12px/1.4em 'Lato', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+	border-radius:6%;
+	margin-top:12px;
+}
